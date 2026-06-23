@@ -1,0 +1,37 @@
+# ============================================================
+# Dravio Monitor — Git Ignore File
+# ============================================================
+
+# Environment variables — contains passwords and API keys
+.env
+
+# Google Service Account credentials — NEVER commit this
+credentials.json
+
+# Auto-generated state file — contains page snapshots
+last_state.json
+
+# Log file — auto-generated, no need to track
+dravio_monitor.log
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
